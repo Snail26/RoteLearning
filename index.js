@@ -81,6 +81,7 @@ function update() {
     timeIncorrect = false;
     if (type == "speed") {
         times.push(time);
+        localStorage.setItem("times", times);
         let total = 0;
         times.forEach(time => {
             total += time;
@@ -95,6 +96,7 @@ function update() {
     if (questionsAnsweredCorrect < 16 || type == "test" ? (questionsAnswered < 16) : true) {
         if (type == "test") {
             times.push(time);
+            localStorage.setItem("times", times);
             let total = 0;
             times.forEach(time => {
                 total += time;
