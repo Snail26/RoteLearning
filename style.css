@@ -1,0 +1,56 @@
+body {
+    text-align: center;
+    background-color: #dfdfdf;
+    font-family: sans-serif;
+}
+
+input {
+    border-radius: 2em;
+    width: 10%;
+    height: 1em;
+    padding: 0.5em;
+}
+button.special {
+    padding: 1em;
+    border-radius: 2em;
+    cursor: pointer;
+    /* box-shadow: 0 0 1em 1em #cfcfcf, 0 0 2em 1em #cfcfcf; */
+    transition: 0.5s all;
+}
+button.special:hover {
+    background-color: #ffffff;
+    /* box-shadow: 0 0 0.5em 1em #dfdfdf, 0 0 1em 1em #efefef; */
+}
+summary {
+    cursor: pointer;
+}
+/* #placementQuestion {
+    
+} */
+#buttonsWrapper {
+    background-color: #cfcfcf;
+    padding: 1em;
+    width: fit-content;
+    margin: auto;
+    border: 0.1em solid black;
+}
+#speedScoreRecordWrapper {
+    background-color: #cfcfcf;
+    padding: 1em;
+    width: fit-content;
+    margin: auto;
+    border: 0.1em solid black;
+}
+#speedScoreRecord {
+    color: darkblue;
+    width: fit-content;
+    padding: 0.3em;
+    background-color: gold;
+    margin: auto;
+}
+#workarea {
+    display: none;
+}
+#home {
+    display: none;
+}
